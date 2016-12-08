@@ -1,2 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 @import url('https://fonts.googleapis.com/css?family=Condiment');
+
+body{
+	background:#aaa;
+}
+
+.main{
+	width:1000px;
+	margin: 0 auto;
+	background: url("images/main.jpg") center 0 repeat;
+	display:flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+}
+
+.slider{
+	width:96%;
+}

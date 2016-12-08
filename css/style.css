@@ -14,6 +14,86 @@ body{
 	flex-flow: row wrap;
 }
 
+header {
+	width: 90%;
+}
+
 .slider{
 	width:96%;
+}
+
+.box-shadow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav {
+	background: #55D7C8;
+	border-radius: 5px;
+	border: 5px solid #ffffff;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	margin-left: 40px;
+	padding-left: 0px;
+	font-size: 14px;
+	font-family: oxygen;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+nav ul {
+	padding-left: : 0px;
+	margin-left: 0px;
+}
+
+.menu li {
+	margin-right: 20px;
+	content: " | ";
+	padding: 0 10px;
+}
+
+.menu li a {
+	text-decoration-color: white;
+	text-decoration: none;
+	color: white;
+}
+
+.menu li:first-child {
+	width: 20px;
+	background: black;
+}
+
+.home-page {
+	background: url(images/home-page-img.png) no-repeat;
+}
+
+.social-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.social-icons img {
+	margin-left: 10px;
+
+}
+
+.icon-1 {
+	margin-left: 20px;
 }
